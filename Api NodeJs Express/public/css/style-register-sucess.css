@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+/*STYLE ABA CADASTRO COM SUCESSO*/
+
+
+
+
+
+/*CONTAINER ABA*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*CONTAINER DO CARD SUCESSO*/
+.ContainerSucesso {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 900px;
+  width: 400px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  border-radius: 30px;
+  position: relative;
+}
+
+/*BOTÃO VOLTAR*/
+#btnvoltar {
+  background-image: url('./imagens/voltar.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+}
+
+/*CONTAINER DA LOGO*/
+.containerlogo {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/*LOGO*/
+#logo {
+  width: 300px;
+  height: 200px;
+  background-image: url('./imagens/ok.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+/*TEXTO CONTA CRIADA COM SUCESSO*/
+#t1 {
+  margin-top: 50px;
+}
+
+/*CONTAINER BOTÃO LOGIN*/
+.containerse {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+}
+
+/*BOTÃO LOGIN*/
+#inicio {
+  border-radius: 50px;
+  height: 50px;
+  width: 80%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: solid black 2px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+#inicio:hover {
+  background-color: black;
+  color: white;
+}

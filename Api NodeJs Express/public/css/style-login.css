@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gagalin&display=swap');
+
+
+
+/*STYLE ABA LOGIN*/
+
+
+
+
+
+/*CONTAINER ABA*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*CONTAINER DO CARD LOGIN*/
+.containerlogin {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 700px;
+  width: 400px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+/*CONTAINER LOGO*/
+.containerlogo {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/*FORM LOGIN*/
+.form_login {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*LOGO*/
+#logo {
+  width: 300px;
+  height: 200px;
+  background-image: url('./imagens/login.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*CONTAINER DO FORM*/
+.containerse {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+}
+
+/*INPUT EMAIL*/
+#email {
+  width: 100%;
+  margin-top: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/*INPUT PASSWORD*/
+#password {
+  width: 100%;
+  margin-top: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input::placeholder {
+  color: black;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+/*CONTAINER BOTÃO ENVIAR*/
+.containerb {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+
+/*BOTÃO ENVIAR*/
+#enter {
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  border: solid black 1.5px;
+  cursor: pointer;
+}
+
+#enter:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/*MESAGEM DE ERRO*/
+#msg1 {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+
+/*BOTAO AINDA NÃO TENHA CONTA*/
+#nao {
+  margin-top: 80px;
+  color: black;
+}
