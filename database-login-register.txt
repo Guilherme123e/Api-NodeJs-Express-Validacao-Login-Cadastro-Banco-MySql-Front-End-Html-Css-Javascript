@@ -1,0 +1,16 @@
+CREATE DATABASE loginbase;
+USE loginbase;
+
+CREATE TABLE usuarios(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(11) NOT NULL UNIQUE,
+    rg VARCHAR(20) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    endereco VARCHAR(200) NOT NULL,
+    telefone VARCHAR(20) NOT NULL,   
+    email VARCHAR(100) NOT NULL UNIQUE,
+    senha_hash VARCHAR(255) NOT NULL,
+    genero ENUM('masculino', 'feminino', 'outro') NOT NULL,
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
